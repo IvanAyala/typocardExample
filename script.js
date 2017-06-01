@@ -14,7 +14,7 @@ function changeColor(){
 
 document.body.addEventListener("click",changeColor);
 
-colorInterval = setInterval(changeColor,1000);
+colorInterval = setInterval(changeColor,5000);
 
 document.querySelector("#stopAnimation").addEventListener("click",function(e){
     e.stopPropagation();
