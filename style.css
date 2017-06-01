@@ -1,0 +1,34 @@
+body, html{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Droid Sans Mono', monospace;
+}
+
+body{
+	background-color: #f60;
+	color: white;
+	transition: all 250ms linear;
+}
+
+#wrapper{
+	max-width: 780px;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+p{
+	margin: 40px 0;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+a{
+	color: inherit;
+	transition: all 250ms linear;
+}
+
+a:hover{
+	background: white;
+	color: black;
+}
