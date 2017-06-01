@@ -8,7 +8,7 @@ body, html{
 body{
 	background-color: #f60;
 	color: white;
-	transition: all 250ms linear;
+	transition: all 100ms linear;
 }
 
 #wrapper{
@@ -25,7 +25,7 @@ p{
 
 a{
 	color: inherit;
-	transition: all 250ms linear;
+	transition: all 100ms linear;
 }
 
 a:hover{

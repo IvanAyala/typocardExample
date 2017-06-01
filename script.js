@@ -1,5 +1,3 @@
-
-
 function changeColor(){
 
     var r = Math.floor(Math.random()*255);
@@ -14,8 +12,15 @@ function changeColor(){
 
 }
 
-
-
 document.body.addEventListener("click",changeColor);
 
-setInterval(changeColor,5000);
+colorInterval = setInterval(changeColor,1000);
+
+document.querySelector("#stopAnimation").addEventListener("click",function(e){
+    e.stopPropagation();
+    clearInterval(colorInterval);
+
+    var row = document.querySelector("#lastrow");
+    lastrow.parentNode.removeChild(row);
+
+})
